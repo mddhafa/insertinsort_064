@@ -28,4 +28,7 @@ void input() {
 		cin >> arr[i];
 	}
 }
-
+void inserttionsort() {
+	int temp;
+	int j;
+}
