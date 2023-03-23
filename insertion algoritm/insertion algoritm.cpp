@@ -17,4 +17,15 @@ void input() {
 			cout << "\n array yang anda masukkan maksimal 20 elemen. \n";
 		}
 	}
+	cout << endl;
+	cout << "====================" << endl;
+	cout << "masukan elemen array" << endl;
+	cout << "====================" << endl;
+
+	for (int i = 0; i < n; i++)
+	{
+		cout << "data ke-" << (i + 1) << ": ";
+		cin >> arr[i];
+	}
 }
+
