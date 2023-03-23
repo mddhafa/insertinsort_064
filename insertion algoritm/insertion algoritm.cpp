@@ -60,3 +60,8 @@ void display() {
 	}
 }
 
+int main() {
+	input();
+	inserttionsort();
+	display();
+}
